@@ -17,7 +17,6 @@ public class VehicleController {
         this.vehicleService = vehicleService;
     }
 
-    // Register a new vehicle
     @PostMapping
     public ResponseEntity<Vehicle> registerVehicle(@RequestBody Vehicle vehicle) {
         return ResponseEntity.ok(vehicleService.registerVehicle(vehicle));
