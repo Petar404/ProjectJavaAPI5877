@@ -53,3 +53,4 @@ public class VehicleController {
         return ResponseEntity.ok(vehicleService.getDiagnosticLogs(vin));
     }
 }
+//

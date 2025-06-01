@@ -60,3 +60,4 @@ public class VehicleService {
         return diagnosticLogRepo.findByVehicle_Vin(vin);
     }
 }
+//

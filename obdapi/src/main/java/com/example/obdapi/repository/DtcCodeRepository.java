@@ -10,3 +10,4 @@ import java.util.List;
 public interface DtcCodeRepository extends CrudRepository<DtcCode, Long> {
     List<DtcCode> findByVehicle_Vin(String vin);
 }
+//

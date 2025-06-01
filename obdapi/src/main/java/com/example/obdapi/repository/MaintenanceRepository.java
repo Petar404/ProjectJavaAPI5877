@@ -10,3 +10,4 @@ import java.util.List;
 public interface MaintenanceRepository extends CrudRepository<MaintenanceLog, Long> {
     List<MaintenanceLog> findByVehicle_Vin(String vin);
 }
+//

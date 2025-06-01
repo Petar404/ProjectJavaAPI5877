@@ -41,3 +41,4 @@ public class Vehicle {
     public List<MaintenanceLog> getMaintenanceLogs() { return maintenanceLogs; }
     public void setMaintenanceLogs(List<MaintenanceLog> maintenanceLogs) { this.maintenanceLogs = maintenanceLogs; }
 }
+//

@@ -10,3 +10,4 @@ import java.util.List;
 public interface DiagnosticLogRepository extends CrudRepository<DiagnosticLog, Long> {
     List<DiagnosticLog> findByVehicle_Vin(String vin);
 }
+//
