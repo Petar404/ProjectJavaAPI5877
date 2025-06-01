@@ -15,7 +15,6 @@ public class DtcCode {
     @JoinColumn(name = "vehicle_vin", nullable = false)
     private Vehicle vehicle;
 
-    // Getters and setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

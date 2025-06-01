@@ -20,7 +20,6 @@ public class Vehicle {
     @OneToMany(mappedBy = "vehicle", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<MaintenanceLog> maintenanceLogs;
 
-    // Getters and setters
     public String getVin() { return vin; }
     public void setVin(String vin) { this.vin = vin; }
 
